@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: olive;
+        }
+        label {
+            cursor: pointer;
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+   <div>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+        <p class="cabecalho">O meu formulario</p>
+        <p>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="inserir o nome" >
+        </p>
+        <p>
+            
+            <label for="dev1">Sou um Dev </label>
+            <input type="checkbox" id="Dev1" name="Dev1" placeholder="inserir o nome" ><br>
+            <label for="dev2">Sou um Dev </label>
+            <input type="checkbox" id="Dev2" name="Dev2" placeholder="inserir o nome" ><br>     
+            <label for="dev3">Sou um Dev </label>
+            <input type="checkbox" id="Dev3" name="Dev3" placeholder="inserir o nome" ><br>
+        
+       </p>
+       <p>
+            Genero:<br>
+            <label for="Femenino">Femenino</label>
+            <input type="radio" id="Femenino" name="genero" value="Femenino" ><br>
+            <label for="Masculino">Masculino </label>
+            <input type="radio" id="Masculino" name="genero" Value="Masculino" ><br>     
+            <label for="outro_outra">outro ou outra </label>
+            <input type="radio" id="outro_outra" name="genero" value="outro_outra"><br>
+        
+       </p>
+
+       <p> 
+        <label>Data:</label>
+        <input type="date" id="date" name="date" value="2026-10-26">
+
+       </p>
+       <p> 
+        <label>Data:</label>
+        <input type="datetime-local" id="date" name="date" value="2026-10-26T20:00">
+
+       </p>
+        <p> 
+        <label>time:</label>
+        <input type="time" id="time" name="time" value="20:00">
+        </p>
+        <p> 
+        <label>color:</label>
+        <input type="color" id="date" name="date" >
+        </p>
+        <p> 
+        <label>email:</label>
+        <input type="email" id="date" name="date" placeholder="ex.: usuario@email.com">
+        </p>
+        <p> 
+        <label>Sua foto:</label>
+        <input type="file" id="file" name="file" accept=".png, .jpg, .svg, image/*" >
+        </p>
+
+       <p>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </p>
+        
+
+    </form>
+</div>
+</body>
+</html>
