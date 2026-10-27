@@ -47,7 +47,7 @@
        </p>
 
        <p> 
-        <label>Data:</label>
+        <label for="Data">Data:</label>
         <input type="date" id="date" name="date" value="2026-10-26">
 
        </p>
@@ -70,15 +70,77 @@
         </p>
         <p> 
         <label>Sua foto:</label>
-        <input type="file" id="file" name="file" accept=".png, .jpg, .svg, image/*" >
+        <input type="file" id="file" name="file" accept=".png,.jpg,.svg,image/*" multiple>
+        </p>
+        <p> 
+        <label>Number</label>
+        <input type="number" id="number" name="number" placeholder="Digite um numero" min="2" >
         </p>
 
-       <p>
-            <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
-        </p>
         
+        <label for="password">password</label>
+        <input type="password" id="password" name="number" placeholder="password" >
+        </p>
+        <p>
+        <label for="range">range:</label>
+        <input type="range" id="password" name="number" placeholder="Digite um numero" list="tickmarks" min="0" max="100" id="tick" name="tick" >
 
+            <datalist id="tickmarks">
+            <option value="0" label="0%"></option>
+            <option value="10" label="Minimum Tip"></option>
+            <option value="20" ></option>
+            <option value="30" ></option>
+            <option value="40" ></option>
+            <option value="50" label="Standard"></option>
+             <option value="60" ></option>
+            <option value="70" ></option>
+            <option value="80" ></option>
+            <option value="90" label="Generous"></option>
+            <option value="100" label="Very Generous"></option>
+            </datalist>
+
+        </p>
+         <p>
+        <label for="url">url: </label>
+        <input type="url" id="url" name="url" placeholder="insere uma url" >
+        </p>
+         <p>
+        <label for="search">search: </label>
+        <input type="search" id="search" name="search" placeholder="search item" >
+        </p>
+          
+        <p>
+        <label for="select">select: </label>
+        <select id="select" name="select">
+            <optgroup label="Teste">
+            <option value="qualquer 1" label="Label 1"> 
+            <option value="qualquer 2" label="Label 2">
+            <option value="qualquer 2" label="Label 2">
+            <option value="qualquer 2" label="Label 2">   
+            </optgroup>
+            <optgroup label="Teste">
+            <option value="qualquer 1" label="Label 1"> 
+            <option value="qualquer 2" label="Label 2">
+            <option value="qualquer 2" label="Label 2">
+            <option value="qualquer 2" label="Label 2">   
+            </optgroup>
+            <optgroup label="Teste">
+            <option value="qualquer 1" label="Label 1"> 
+            <option value="qualquer 2" label="Label 2">
+            <option value="qualquer 2" label="Label 2">
+            <option value="qualquer 2" label="Label 2">   
+            </optgroup>
+         </select>>
+        </p>
+         <p>
+        <label for="textarea">textarea: </label>
+        <textarea name="textarea" id="textarea" rows="3" cols="9"></textarea>
+        </p>
+
+        <p>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+        </p>
     </form>
 </div>
 </body>
