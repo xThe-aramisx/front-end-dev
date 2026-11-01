@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+.filha1, .filha2 {
+    background: red;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    position: static;
+}
+
+.filha2 {
+    background: greenyellow;
+    float: left;
+    z-index: -1;
+}
+.filha1 {
+    position: absolute;
+    
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -150px;
+
+    
+    
+
+}

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    padding: 10px;
+    font-size: 16px;
+    /* font-style: italic;
+    direction: right;
+    letter-spacing: 5px;
+    line-height: 1.5; */
+     text-align: left;
+    /*text-decoration: overline underline red; */
+    /* text-indent: 50px; */
+    text-shadow: -1px 1px 1px rgb(39, 216, 32);
+    text-transform: Capitalize;
+
+}
