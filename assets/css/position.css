@@ -2,8 +2,24 @@
     margin: 0;
 }
 
-.filha1, .filha2 {
-    background: red;
+ul { 
+    height: 200px; 
+    overflow-y: auto;
+}
+
+ul li.sticky {  
+    position: sticky;
+    background: olive;
+    top: 0;
+}
+
+
+/* .pai{
+    height: 300vh;
+}
+
+.filha1, .filha2, .filha3 {
+    background: rgba(255, 0, 0, 1);
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -12,18 +28,25 @@
 
 .filha2 {
     background: greenyellow;
-    float: left;
-    z-index: -1;
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 1;
+
 }
 .filha1 {
-    position: absolute;
-    
-    top: 50%;
-    margin-top: -150px;
-    left: 50%;
-    margin-left: -150px;
-
-    
-    
-
 }
+.filha3 {
+    background: blue;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.outra {
+    position: absolute;
+    font-size: 50px;
+    background: yellow;
+    right: 0;
+    bottom: 0px;
+} */
